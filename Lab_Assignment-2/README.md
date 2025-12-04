@@ -6,4 +6,4 @@
 - Subject: WebDev-1
 
 OUTPUT OF LAB ASSIGNMENT-2(css)
-![Assignment2_output]()
+https://anujdeshwal455-sketch.github.io/WebDev-1/Lab_Assignment-2

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEase - E-commerce Store</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">ShopEase</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#electronics">Electronics</a></li>
+        <li><a href="#clothes">Clothes</a></li>
+        <li><a href="#snacks">Snacks</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Everything you love, delivered fast</h1>
+      <p>Discover deals on electronics, fashion, and everyday snacks.</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="#featured">Shop Featured</a>
+        <a class="btn btn-outline" href="#electronics">Browse Electronics</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category quick links -->
+  <section class="categories-nav">
+    <a href="#electronics" class="cat-pill">Electronics</a>
+    <a href="#clothes" class="cat-pill">Clothes</a>
+    <a href="#snacks" class="cat-pill">Snacks</a>
+  </section>
+
+  <!-- Featured grid -->
+  <section id="featured" class="section">
+    <div class="section-header">
+      <h2>Featured products</h2>
+      <a href="#electronics" class="section-link">See more</a>
+    </div>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="./img/headphones.webp" alt="Wireless headphones"/>
+        <h3>Wireless Headphones</h3>
+        <p class="price">$59.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="./img/sneakers.webp" alt="Running sneakers"/>
+        <h3>Running Sneakers</h3>
+        <p class="price">$89.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="./img/watch.webp" alt="Smartwatch"/>
+        <h3>Smartwatch</h3>
+        <p class="price">$129.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" alt="Fitness tracker"/>
+        <h3>Fitness Tracker</h3>
+        <p class="price">$69.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Electronics horizontal scroll -->
+  <section id="electronics" class="section">
+    <div class="section-header">
+      <h2>Electronics</h2>
+      <div class="section-actions">
+        <button class="scroll-btn prev" aria-label="Scroll left">‹</button>
+        <button class="scroll-btn next" aria-label="Scroll right">›</button>
+      </div>
+    </div>
+    <div class="h-scroll" data-scroll="electronics">
+      <article class="product-card snap">
+        <img src="./img/consol.webp" alt="Laptop"/>
+        <h3>Laptop Pro 14</h3>
+        <p class="price">$999.00</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/consol.webp" alt="Gaming console"/>
+        <h3>Next-Gen Console</h3>
+        <p class="price">$499.00</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/headphones.webp" alt="VR headset"/>
+        <h3>VR Headset</h3>
+        <p class="price">$349.00</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/speakers.webp" alt="Bluetooth speaker"/>
+        <h3>Bluetooth Speaker</h3>
+        <p class="price">$79.00</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/drone.webp" alt="Drone"/>
+        <h3>4K Drone</h3>
+        <p class="price">$699.00</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Clothes horizontal scroll -->
+  <section id="clothes" class="section">
+    <div class="section-header">
+      <h2>Clothes</h2>
+      <div class="section-actions">
+        <button class="scroll-btn prev" aria-label="Scroll left">‹</button>
+        <button class="scroll-btn next" aria-label="Scroll right">›</button>
+      </div>
+    </div>
+    <div class="h-scroll" data-scroll="clothes">
+      <article class="product-card snap">
+        <img src="./img/jaket.webp" alt="Jacket"/>
+        <h3>Classic Denim Jacket</h3>
+        <p class="price">$79.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/hoodie.webp" alt="T-shirt"/>
+        <h3>Graphic Tee</h3>
+        <p class="price">$24.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/shirt.webp" alt="Dress"/>
+        <h3>Floral Summer Dress</h3>
+        <p class="price">$59.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/hoodie.webp" alt="Hoodie"/>
+        <h3>Cozy Hoodie</h3>
+        <p class="price">$39.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/sneakers.webp" alt="Sneakers"/>
+        <h3>Street Sneakers</h3>
+        <p class="price">$89.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Snacks horizontal scroll -->
+  <section id="snacks" class="section">
+    <div class="section-header">
+      <h2>Snacks</h2>
+      <div class="section-actions">
+        <button class="scroll-btn prev" aria-label="Scroll left">‹</button>
+        <button class="scroll-btn next" aria-label="Scroll right">›</button>
+      </div>
+    </div>
+    <div class="h-scroll" data-scroll="snacks">
+      <article class="product-card snap">
+        <img src="./img/chips.webp" alt="Chips"/>
+        <h3>Sea Salt Chips</h3>
+        <p class="price">$3.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/bar.webp" alt="Chocolate"/>
+        <h3>Dark Chocolate Bar</h3>
+        <p class="price">$2.49</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/cookies.webp" alt="Cookies"/>
+        <h3>Chocolate Chip Cookies</h3>
+        <p class="price">$4.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/nuts.webp" alt="Nuts"/>
+        <h3>Roasted Mixed Nuts</h3>
+        <p class="price">$6.99</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+      <article class="product-card snap">
+        <img src="./img/honey.webp" alt="Granola"/>
+        <h3>Honey Granola</h3>
+        <p class="price">$5.49</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section narrow">
+    <h2>About ShopEase</h2>
+    <p>We curate quality products across tech, fashion, and everyday essentials, with transparent pricing and fast delivery.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section narrow">
+    <h2>Contact us</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required/>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required/>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button class="btn btn-primary" type="submit">Send message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <!-- Optional minimal JS for scroll buttons (no frameworks) -->
+  <script>
+    document.querySelectorAll('.section').forEach(section => {
+      const prev = section.querySelector('.scroll-btn.prev');
+      const next = section.querySelector('.scroll-btn.next');
+      const scroller = section.querySelector('.h-scroll');
+      if (!prev || !next || !scroller) return;
+      const scrollAmount = 320; // pixels per click
+      prev.addEventListener('click', () => scroller.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+      next.addEventListener('click', () => scroller.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #222;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+.skip-link{
+    position: fixed;
+    color: white;
+    text-decoration:none;
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-left: 10px;
+    z-index: 2000;
+}
+.skip-link:hover{
+    text-decoration:underline;
+}
+header{
+  background-color: #0d47a1;
+  color: white;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+header h1{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+section{
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h2{
+    color:black;
+}
+.profilepic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin:auto;
+}
+table{
+  width: 95%;
+  border-collapse: collapse;
+  margin: 20px 0px 10px 22px;
+  border: 1px solid #0d47a1;
+  padding: 10px;
+  text-align: center;
+}
+th{
+    color: white;
+    background-color: #0d47a1;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 5px;
+}
+label{
+  font-weight: 600;
+  width: 80%;
+  text-align: center;
+  margin: 10px 0px 0px 5px;
+}
+input{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #0d47a1;
+  border-radius: 5px;
+  margin: 4px 0px -50px 0px;
+}
+textarea{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #0d47a1;
+  border-radius: 5px;
+  margin: 4px 0px -10px 0px;
+}
+button{
+  margin-top: -25px;
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #08337a;
+}
+footer{
+  text-align: right;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.back-to-top{
+  background-color: #0d47a1;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.back-to-top:hover{
+  background-color: #08337a;
+}
